@@ -4,6 +4,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CoinChange", "CoinChange\CoinChange.fsproj", "{BB0328A8-D947-4E5F-84AB-4FEA26D3F0C9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Cipher", "Cipher\Cipher.fsproj", "{D2C966B0-C550-4F88-9A3C-4A94E2A16918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BB0328A8-D947-4E5F-84AB-4FEA26D3F0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0328A8-D947-4E5F-84AB-4FEA26D3F0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0328A8-D947-4E5F-84AB-4FEA26D3F0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C966B0-C550-4F88-9A3C-4A94E2A16918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C966B0-C550-4F88-9A3C-4A94E2A16918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C966B0-C550-4F88-9A3C-4A94E2A16918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C966B0-C550-4F88-9A3C-4A94E2A16918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
