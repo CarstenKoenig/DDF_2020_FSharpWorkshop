@@ -21,31 +21,12 @@ type Geheimtext =
     private | Geheimtext of string
     override this.ToString () =
         let (Geheimtext txt) = this in txt
-
-let rec private mapString key =
-    if key < 0 then mapString (validLetters.Length + key) else
-    if key > validLetters.Length then mapString (key % validLetters.Length) else
-    let cycledLetters = List.skip key validLetters @ List.take key validLetters
-    let map =
-        List.zip validLetters cycledLetters
-        |> Map.ofList
-    fun txt ->
-        txt
-        |> Seq.choose map.TryFind
-        |> Seq.toArray
-        |> String
     
-let verschluesseln key =
-    let f = mapString key
-    fun (Klartext txt) ->
-        f txt
-        |> Geheimtext
+let verschluesseln key klartext =
+    Geheimtext "implement me"
         
-let entschluesseln key =
-    let f = mapString (-key)
-    fun (Geheimtext txt) ->
-        f txt
-        |> Klartext
+let entschluesseln key  geheimtext =
+    Klartext "implement me"
 
 let erstelle key =
     {|
