@@ -1,4 +1,4 @@
-# F# &rarr; C# - Workshop
+# C# &rarr; F# - Workshop
 
 Teilnehmer-Materialien zum Workshop "C# &rarr; F#"
 auf dem [.net Day Franken 2020](https://www.dotnet-day-franken.de/)
