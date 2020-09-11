@@ -10,7 +10,7 @@ let runInput input =
     |> string
 
 [<Fact>]
-let ``evals 1*1 to 2`` () =
+let ``evals 1+1 to 2`` () =
     Assert.Equal("2,0,0,0,99", runInput "1,0,0,0,99")
     
 [<Fact>]
