@@ -40,7 +40,7 @@ module ``Teste die fizzBuzz Funktion`` =
     [<Fact>]
     let ``alle Zahlen n die weder von 3 noch von 5 teilbar sind werden einfach als String zurückgegeben`` () =
         property {
-            let! n = Gen.int (Range.linear 1 100)
+            let! n = Gen.int (Range.linear 1 300)
             where (n % 3 <> 0 && n % 5 <> 0)
             let result = Solution.fizzBuzz n
             counterexample (sprintf "Ergebnis zu n=%d war %s" n result)
